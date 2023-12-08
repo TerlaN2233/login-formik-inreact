@@ -1,0 +1,49 @@
+.baseFormik {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelFormik {
+    width: 70px;
+}
+
+.formikInp {
+    border: 1px solid #c4c4c4;
+}
+
+.formikInp:focus {
+    outline: none;
+}
+
+.formikInpActive {
+    border: 1px solid red;
+    outline: none;
+}
+
+.formikInp:focus {
+    outline: none;
+}
+
+.ddb {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 150px;
+
+}
+.fomrikText{
+   position: absolute;
+   top: 13%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 25px;
+}
+ 
+.msg p {
+    margin-left: 86px;
+    display: flex;
+    color: red; 
+}
